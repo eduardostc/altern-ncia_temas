@@ -25,7 +25,7 @@ li{
     list-style: square;
 }
 
-.light-theme{
+/* .light-theme{
     --bg:var(--green);
     --fontColor: var(--black);
     --btnBg: var(--black);
@@ -37,6 +37,20 @@ li{
     --fontColor: var(--green);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
+} */
+
+.light-theme{
+    --bg: #F5F5F5; /* Fundo mais claro */
+    --fontColor: #333333; /* Cor do texto mais escura */
+    --btnBg: #007BFF; /* Cor de fundo do botão */
+    --btnFontColor: #FFFFFF; /* Cor do texto do botão */
+}
+
+.dark-theme{
+    --bg: #333333; /* Fundo mais escuro */
+    --fontColor: #F5F5F5; /* Cor do texto mais clara */
+    --btnBg: #6C757D; /* Cor de fundo do botão */
+    --btnFontColor: #FFFFFF; /* Cor do texto do botão */
 }
 
 .btn{
